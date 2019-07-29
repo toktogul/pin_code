@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DemoPinCode</string>
+    <string name="repeat_pin_code">Повторите пин-пароль</string>
+    <string name="pin_code">Придумайте код-пароль</string>
+    <string name="repeat_code_error">Повторный код-пароль введет неверно</string>
+    <string name="success_message">Код-пароль удачно \n установлен</string>
+    <string name="ok">Понятно</string>
+</resources>

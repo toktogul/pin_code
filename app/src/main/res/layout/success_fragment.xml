@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center_horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:layout_width="match_parent"
+              android:text="@string/success_message"
+              android:textColor="#3979BC"
+              android:textSize="26sp"
+              android:gravity="center"
+              android:layout_marginTop="100dp"
+              android:fontFamily="sans-serif-medium"
+              android:layout_height="wrap_content"/>
+
+    <ImageView android:layout_width="wrap_content"
+               android:layout_marginTop="20dp"
+               android:src="@drawable/ic_success"
+               android:layout_height="wrap_content"/>
+
+    <Button android:layout_width="200dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/ok"
+            android:id="@+id/ok"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/ok_button_bg"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
